@@ -7,6 +7,6 @@ import (
 
 func main() {
 	r := gin.Default()
-	r.GET("/ping", controllers.GetOne)
+	r.GET("/", controllers.GetOne)
 	r.Run()
 }
